@@ -149,6 +149,7 @@ public class Writer {
 		String INIcontent = writer.getBuffer().toString();
 		// Passes the content from the INIfile to the writeFile method
 		log(INIcontent);
+		closeIt();
 	}
 
 }
